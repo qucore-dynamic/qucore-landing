@@ -1,5 +1,5 @@
 services:
-  frontend:
+  qucore_landing_frontend:
     build: .
     env_file:
       - .env
@@ -12,8 +12,8 @@ services:
     command: npm run dev
     ports:
       - '3000:3000'
-    networks: [qucore_<SERVICE_NAME>_network]
+    networks: [qucore_landing_network]
 
 networks:
-  qucore_<SERVICE_NAME>_network:
+  qucore_landing_network:
     external: true
