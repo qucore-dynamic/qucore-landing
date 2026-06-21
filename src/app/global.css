@@ -7,14 +7,3 @@
   --o-txt: #dcdee3;
   --spec-txt: #3039a1;
 }
-
-@layer components {
-  .Cloud {
-    position: absolute;
-    width: 50%;
-    height: auto;
-    pointer-events: none;
-    user-select: none;
-    filter: blur(3.5vw);
-  }
-}
