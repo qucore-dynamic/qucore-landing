@@ -29,8 +29,10 @@ const coda = Coda({
 const RootLayout = async ({ children }: LayoutT) => {
   return (
     <html lang='en'>
-      <body className={`${prosto.className} ${afacad.className} ${coda.className}`}>
-        {children}
+      <body
+        className={`${prosto.className} ${afacad.className} ${coda.className} bg-(--bg) text-(--txt) flex flex-col items-center text-center mx-[3.3%]`}
+      >
+        <main className='w-full flex flex-col justify-center'>{children}</main>
       </body>
     </html>
   )
