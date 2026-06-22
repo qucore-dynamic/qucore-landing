@@ -16,7 +16,7 @@ const Cloud = ({ fileName, className }: CloudT) => {
   return (
     <img
       src={`images/clouds/${fileName}`}
-      className={`w-[50%] h-auto pointer-events-none select-none absolute blur-[3.5vw] ${className}`}
+      className={`w-[50%] max-h-screen pointer-events-none select-none absolute blur-[3.5vw] ${className}`}
       onError={() => setIsError(true)}
     />
   )
