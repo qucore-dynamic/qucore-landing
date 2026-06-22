@@ -1,5 +1,5 @@
 // Components
-import Hero from '@components-pages/home/Hero'
+import Hero from '@components-pages/home/Hero/Hero'
 import About from '@components-pages/home/About'
 import Features from '@components-pages/home/Features'
 import Process from '@components-pages/home/Process'

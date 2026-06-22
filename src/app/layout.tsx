@@ -2,6 +2,9 @@
 import './global.css'
 import './variables.scss'
 
+// Components
+import ScrollFix from '@components-shared/ScrollFix'
+
 // Font
 import { Prosto_One, Afacad, Coda } from 'next/font/google'
 
@@ -12,26 +15,30 @@ const prosto = Prosto_One({
   subsets: ['latin', 'cyrillic', 'latin-ext'],
   weight: '400',
   display: 'swap',
+  variable: '--font-prosto',
 })
 
 const afacad = Afacad({
   subsets: ['latin', 'latin-ext'],
   weight: '400',
   display: 'swap',
+  variable: '--font-afacad',
 })
 
 const coda = Coda({
   subsets: ['latin', 'latin-ext'],
   weight: '400',
   display: 'swap',
+  variable: '--font-coda',
 })
 
 const RootLayout = async ({ children }: LayoutT) => {
   return (
     <html lang='en'>
       <body
-        className={`${prosto.className} ${afacad.className} ${coda.className} bg-(--bg) text-(--txt) flex flex-col items-center text-center mx-[3.3%]`}
+        className={`${prosto.className} ${afacad.className} ${coda.className} ${prosto.variable} ${afacad.variable} ${coda.variable} bg-(--bg) text-(--txt) flex flex-col items-center text-center mx-[3.3%]`}
       >
+        <ScrollFix />
         <main className='w-full flex flex-col justify-center'>{children}</main>
       </body>
     </html>
