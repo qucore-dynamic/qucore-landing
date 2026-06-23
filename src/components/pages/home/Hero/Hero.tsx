@@ -16,36 +16,38 @@ const Hero = () => {
 
   return (
     <div className='h-screen min-h-min flex flex-col justify-center items-center text-center relative'>
-      <Cloud fileName='hero.svg' className='Cloud top-[7.5vh] right-0' />
+      <Cloud fileName='hero.svg' className='Hero_cloud top-[7.5vh] right-0' />
 
       <div className='flex flex-col justify-center items-center text-center relative'>
         <FadeUpMotion delay={0} x={75} y={0}>
-          <h1 className='text-[96px] font-prosto'>QuCore Dynamic</h1>
+          <h1 className='Hero_header text-[96px] font-prosto'>QuCore Dynamic</h1>
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.1} x={-75} y={0}>
-          <h2 className='text-[48px] font-prosto -mt-2.5'>Where ideas meet technology</h2>
+          <h2 className='Hero_second-header text-[48px] font-prosto -mt-2.5'>
+            Where ideas meet technology
+          </h2>
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.3} x={75} y={0}>
-          <h3 className='text-[24px] font-afacad max-w-135 mt-5 text-(--o-txt)'>
+          <h3 className='Hero_third-header text-[24px] font-afacad max-w-135 mt-5 text-(--o-txt)'>
             Build dynamic systems powered by events, automation, and modular architecture
           </h3>
         </FadeUpMotion>
 
-        <div className='flex gap-25 mt-17.5'>
-          <FadeUpMotion delay={0.4} x={50} y={0}>
+        <div className='Hero_btns flex gap-25 mt-17.5'>
+          <FadeUpMotion delay={0.4} x={-50} y={0}>
             <button
-              className='Explore_btn font-coda tracking-wider'
+              className='Hero_btn Explore_btn w-37.5 h-10 font-coda text-[18px] pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('about-section')}
             >
               Explore
             </button>
           </FadeUpMotion>
 
-          <FadeUpMotion delay={0.4} x={-50} y={0}>
+          <FadeUpMotion delay={0.4} x={50} y={0}>
             <button
-              className='Contact-us_btn font-coda tracking-wider'
+              className='Hero_btn Contact-us_btn w-37.5 h-10 font-coda text-[18px] pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('contacts-section')}
             >
               Contact us
