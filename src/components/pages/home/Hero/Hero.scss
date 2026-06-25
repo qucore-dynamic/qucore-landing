@@ -3,18 +3,20 @@
 .Explore_btn {
   background: linear-gradient(35deg, vars.$spec-txt 0%, rgba(79, 87, 184, 1) 100%);
   color: vars.$o-txt;
-  transition: all 0.15s ease-in-out;
+  transition:
+    transform 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px 5px vars.$spec-txt;
-    transition: all 0.15s ease-in-out;
+  @media (hover: hover) {
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 5px vars.$spec-txt;
+    }
   }
 
   &:active {
     transform: scale(1.05);
     box-shadow: 0 0 15px 5px vars.$spec-txt;
-    transition: all 0.15s ease-in-out;
   }
 }
 
@@ -22,80 +24,33 @@
   border: vars.$border 1px solid;
   background-color: vars.$bl;
   color: vars.$o-txt;
-  transition: all 0.15s ease-in-out;
+  transition:
+    transform 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px 5px vars.$border;
-    transition: all 0.15s ease-in-out;
+  @media (hover: hover) {
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px 5px vars.$border;
+    }
   }
 
   &:active {
     transform: scale(1.05);
     box-shadow: 0 0 15px 5px vars.$border;
-    transition: all 0.15s ease-in-out;
   }
 }
 
 @media screen and (max-width: 950px) {
   .Hero {
-    &_header {
-      font-size: 84px;
-    }
-
-    &_second-header {
-      font-size: 40px;
-    }
-
-    &_btns {
-      gap: 75px;
-    }
-
     &_cloud {
       width: 65%;
     }
   }
 }
 
-@media screen and (max-width: 830px) {
-  .Hero {
-    &_header {
-      font-size: 72px;
-    }
-
-    &_second-header {
-      font-size: 36px;
-    }
-
-    &_third-header {
-      font-size: 22px;
-    }
-
-    &_btns {
-      gap: 50px;
-    }
-  }
-}
-
 @media screen and (max-width: 720px) {
   .Hero {
-    &_header {
-      font-size: 60px;
-    }
-
-    &_second-header {
-      font-size: 30px;
-    }
-
-    &_btns {
-      gap: 50px;
-    }
-
-    &_btn {
-      font-size: 16px;
-      width: 125px;
-    }
-
     &_cloud {
       width: 75%;
     }
@@ -104,40 +59,8 @@
 
 @media screen and (max-width: 595px) {
   .Hero {
-    &_header {
-      font-size: 52px;
-    }
-
-    &_second-header {
-      font-size: 26px;
-    }
-
     &_cloud {
       width: 85%;
-    }
-  }
-}
-
-@media screen and (max-width: 512px) {
-  .Hero {
-    &_second-header {
-      margin-top: 5px;
-    }
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .Hero {
-    &_btns {
-      flex-direction: column;
-      gap: 30px;
-      margin-top: 50px;
-      width: 100%;
-    }
-
-    &_btn {
-      max-width: 200px;
-      width: 100%;
     }
   }
 }
