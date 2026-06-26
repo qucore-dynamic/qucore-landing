@@ -1,0 +1,19 @@
+@use '../../../app/variables.scss' as vars;
+
+@media screen and (max-width: 950px) {
+  .Cloud {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .Cloud {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .Cloud {
+    width: 85%;
+  }
+}
