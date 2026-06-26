@@ -24,21 +24,21 @@ const Hero = () => {
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.1} x={-75} y={0}>
-          <h2 className='Hero_second-header text-[clamp(1.25rem,4vw,3rem)] font-prosto -mt-1.25'>
+          <h2 className='Hero_second-header text-[clamp(1.25rem,3vw,3rem)] font-prosto -mt-1.25'>
             Where ideas meet technology
           </h2>
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.3} x={75} y={0}>
-          <h3 className='Hero_third-header text-[clamp(1rem,2vw,1.5rem)] font-afacad max-w-[540px] mt-5 text-(--o-txt)'>
+          <h3 className='Hero_third-header text-[clamp(1.1rem,2vw,1.5rem)] font-afacad max-w-135 mt-5 text-(--o-txt)'>
             Build dynamic systems powered by events, automation, and modular architecture
           </h3>
         </FadeUpMotion>
 
-        <div className='Hero_btns flex flex-wrap justify-center gap-[5vw] gap-y-[30px] mt-17.5 text-[clamp(1rem,2vw,1.125rem)]'>
+        <div className='Hero_btns flex justify-center gap-17.5 gap-y-7.5 mt-17.5 text-[clamp(1rem,2vw,1.125rem)]'>
           <FadeUpMotion delay={0.4} x={-50} y={0}>
             <button
-              className='Hero_btn Explore_btn w-37.5 h-10 font-coda pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
+              className='Hero_btn Explore_btn min-w-37.5 h-10 font-coda pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('about-section')}
             >
               Explore
@@ -47,7 +47,7 @@ const Hero = () => {
 
           <FadeUpMotion delay={0.4} x={50} y={0}>
             <button
-              className='Hero_btn Contact-us_btn w-37.5 h-10 font-coda pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
+              className='Hero_btn Contact-us_btn min-w-37.5 h-10 font-coda pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('contacts-section')}
             >
               Contact us

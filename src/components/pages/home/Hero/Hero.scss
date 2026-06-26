@@ -64,3 +64,16 @@
     }
   }
 }
+
+@media screen and (max-width: 25em) {
+  .Hero {
+    &_btns {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &_btn {
+      width: 75%;
+    }
+  }
+}
