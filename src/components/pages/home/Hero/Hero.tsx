@@ -4,7 +4,7 @@
 import './Hero.scss'
 
 // Components
-import Cloud from '@components-ui/Cloud'
+import Cloud from '@components-ui/Cloud/Cloud'
 import FadeUpMotion from '@components-shared/FadeUpMotion'
 
 const Hero = () => {
@@ -15,22 +15,22 @@ const Hero = () => {
   }
 
   return (
-    <div className='h-screen min-h-min flex flex-col justify-center items-center text-center relative mb-25'>
+    <div className='h-screen min-h-min flex flex-col justify-center items-center relative mb-25'>
       <Cloud fileName='hero.svg' className='Hero_cloud top-[7.5vh] right-0' />
 
-      <div className='flex flex-col justify-center items-center text-center relative'>
+      <div className='flex flex-col justify-center items-center relative'>
         <FadeUpMotion delay={0} x={75} y={0}>
-          <h1 className='Hero_header text-[clamp(2.5rem,7vw,6rem)] font-prosto'>QuCore Dynamic</h1>
+          <h1 className='text-[clamp(2.5rem,10vw,6rem)] font-prosto'>QuCore Dynamic</h1>
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.1} x={-75} y={0}>
-          <h2 className='Hero_second-header text-[clamp(1.25rem,3vw,3rem)] font-prosto -mt-1.25'>
+          <h2 className='text-[clamp(1.5rem,5vw,3rem)] font-prosto -mt-1.25 mx-3.75'>
             Where ideas meet technology
           </h2>
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.3} x={75} y={0}>
-          <h3 className='Hero_third-header text-[clamp(1.1rem,2vw,1.5rem)] font-afacad max-w-135 mt-5 text-(--o-txt)'>
+          <h3 className='text-[clamp(1.1rem,2.5vw,1.5rem)] font-afacad max-w-135 mt-5 text-(--o-txt)'>
             Build dynamic systems powered by events, automation, and modular architecture
           </h3>
         </FadeUpMotion>

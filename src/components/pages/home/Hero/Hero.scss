@@ -41,30 +41,6 @@
   }
 }
 
-@media screen and (max-width: 950px) {
-  .Hero {
-    &_cloud {
-      width: 65%;
-    }
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .Hero {
-    &_cloud {
-      width: 75%;
-    }
-  }
-}
-
-@media screen and (max-width: 595px) {
-  .Hero {
-    &_cloud {
-      width: 85%;
-    }
-  }
-}
-
 @media screen and (max-width: 25em) {
   .Hero {
     &_btns {
@@ -73,7 +49,7 @@
     }
 
     &_btn {
-      width: 75%;
+      width: 65%;
     }
   }
 }
