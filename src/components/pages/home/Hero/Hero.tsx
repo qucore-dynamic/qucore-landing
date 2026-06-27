@@ -15,7 +15,7 @@ const Hero = () => {
   }
 
   return (
-    <div className='h-screen min-h-min flex flex-col justify-center items-center relative mb-25'>
+    <section className='h-screen min-h-min flex flex-col justify-center items-center relative mb-25'>
       <Cloud fileName='hero.svg' className='Hero_cloud top-[7.5vh] right-0' />
 
       <div className='flex flex-col justify-center items-center relative'>
@@ -55,7 +55,7 @@ const Hero = () => {
           </FadeUpMotion>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
