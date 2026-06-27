@@ -61,11 +61,8 @@
 
 @media screen and (max-width: 46.875rem) {
   .About {
-    &_wraper {
+		&_content {
       margin-top: 2.5rem;
-    }
-
-    &_content {
       flex-direction: column-reverse;
     }
 
