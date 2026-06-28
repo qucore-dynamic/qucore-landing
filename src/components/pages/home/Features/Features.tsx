@@ -31,9 +31,9 @@ const Features = () => {
             <h3 className='Features_card-header text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
               Event Engine
             </h3>
-            <p className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
+            <h4 className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
               Create and manage system events
-            </p>
+            </h4>
           </div>
         </FadeUpMotion>
 
@@ -52,9 +52,9 @@ const Features = () => {
             <h3 className='Features_card-header text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
               Automation
             </h3>
-            <p className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
+            <h4 className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
               Trigger actions automatically
-            </p>
+            </h4>
           </div>
         </FadeUpMotion>
 
@@ -73,9 +73,9 @@ const Features = () => {
             <h3 className='Features_card-header text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
               Management
             </h3>
-            <p className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
+            <h4 className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
               Generate and organize tasks
-            </p>
+            </h4>
           </div>
         </FadeUpMotion>
 
@@ -94,9 +94,9 @@ const Features = () => {
             <h3 className='Features_card-header text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
               Economy
             </h3>
-            <p className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
+            <h4 className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
               Track resources and finances
-            </p>
+            </h4>
           </div>
         </FadeUpMotion>
 
@@ -115,9 +115,9 @@ const Features = () => {
             <h3 className='Features_card-header text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
               Architecture
             </h3>
-            <p className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
+            <h4 className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
               Expand functionality with modules
-            </p>
+            </h4>
           </div>
         </FadeUpMotion>
 
@@ -136,9 +136,9 @@ const Features = () => {
             <h3 className='Features_card-header text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
               Event Flow
             </h3>
-            <p className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
+            <h4 className='Features_card-text text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
               Controls how events trigger actions
-            </p>
+            </h4>
           </div>
         </FadeUpMotion>
       </div>

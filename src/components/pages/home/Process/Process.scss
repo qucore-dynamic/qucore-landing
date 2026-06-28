@@ -1,13 +1,11 @@
 @use '../../../../app/variables.scss' as vars;
 
-.Features {
+.Process {
   &_card {
     position: relative;
     overflow: hidden;
 
-    transition:
-      translate 0.15s ease-in-out,
-      box-shadow 0.15s ease-in-out;
+    transition: box-shadow 0.15s ease-in-out;
 
     &::after {
       content: '';
@@ -23,7 +21,6 @@
 
     @media (hover: hover) {
       &:hover {
-        translate: 0 -15px;
         box-shadow: 0 0 15px 2px vars.$border;
 
         &::after {
@@ -33,12 +30,43 @@
     }
 
     &:active {
-      translate: 0 -15px;
       box-shadow: 0 0 15px 2px vars.$border;
 
       &::after {
         opacity: 1;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 109.688rem) {
+  .Process {
+    &_content {
+      align-items: center;
+      gap: 6.25rem;
+    }
+
+    &_block {
+      width: 100%;
+      margin: 0;
+
+      &-image {
+        display: none;
+      }
+
+      &-content {
+        width: 100%;
+      }
+
+      &-text {
+        max-width: 40.625rem;
+        padding-inline: 1.563rem;
+      }
+    }
+
+    &_card {
+      max-width: 40.625rem;
+      min-height: 12.5rem;
     }
   }
 }

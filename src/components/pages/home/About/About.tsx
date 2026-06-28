@@ -27,7 +27,7 @@ const About = () => {
               y={0}
               className='About_schema-step About_schema-step-1 self-start bg-(--bl) px-[25%] py-[7.5%] font-coda text-[clamp(1rem,1.75vw,1.5rem)] flex flex-col justify-center items-center rounded-[20px] border border-(--border)'
             >
-              Event
+              <h3>Event</h3>
             </FadeUpMotion>
 
             <FadeUpMotion
@@ -46,7 +46,7 @@ const About = () => {
               y={0}
               className='About_schema-step About_schema-step-2 self-center bg-(--bl) px-[25%] py-[7.5%] font-coda text-[clamp(1rem,1.75vw,1.5rem)] flex flex-col justify-center items-center rounded-[20px] border border-(--border)'
             >
-              Action
+              <h3>Action</h3>
             </FadeUpMotion>
 
             <FadeUpMotion
@@ -65,35 +65,41 @@ const About = () => {
               y={0}
               className='About_schema-step About_schema-step-3 self-end bg-(--bl) px-[25%] py-[7.5%] font-coda text-[clamp(1rem,1.75vw,1.5rem)] flex flex-col justify-center items-center rounded-[20px] border border-(--border)'
             >
-              Result
+              <h3>Result</h3>
             </FadeUpMotion>
           </div>
         </div>
 
         <div className='About_text font-afacad text-[clamp(1rem,1.75vw,1.5rem)] text-start w-full max-w-[50%]'>
           <FadeUpMotion delay={0.5} x={75} y={0}>
-            QuCore Dynamic is a modular platform designed to simplify the creation of dynamic,
-            interconnected systems. Instead of hardcoding every process, developers can define
-            events, actions, and relationships that automatically drive application behavior
+            <p>
+              QuCore Dynamic is a modular platform designed to simplify the creation of dynamic,
+              interconnected systems. Instead of hardcoding every process, developers can define
+              events, actions, and relationships that automatically drive application behavior
+            </p>
           </FadeUpMotion>
 
           <br />
 
           <FadeUpMotion delay={0.6} x={-75} y={0}>
-            Built on an event-driven architecture, the platform ensures every action triggers
-            meaningful consequences. A completed task can update statistics, a received shipment can
-            affect inventory and finances, and a single user action can launch entire chains of
-            automated processes
+            <p>
+              Built on an event-driven architecture, the platform ensures every action triggers
+              meaningful consequences. A completed task can update statistics, a received shipment
+              can affect inventory and finances, and a single user action can launch entire chains
+              of automated processes
+            </p>
           </FadeUpMotion>
 
           <br />
 
           <FadeUpMotion delay={0.7} x={75} y={0}>
-            By combining automation with a modular design, QuCore Dynamic helps developers build
-            scalable solutions that are easier to maintain, extend, and adapt. Whether you're
-            creating educational platforms, business management tools, or simulation projects, it
-            reduces complexity and encourages rapid development through a clean, extensible
-            architecture
+            <p>
+              By combining automation with a modular design, QuCore Dynamic helps developers build
+              scalable solutions that are easier to maintain, extend, and adapt. Whether you're
+              creating educational platforms, business management tools, or simulation projects, it
+              reduces complexity and encourages rapid development through a clean, extensible
+              architecture
+            </p>
           </FadeUpMotion>
         </div>
       </div>
