@@ -36,18 +36,28 @@
         opacity: 1;
       }
     }
+
+    &-num {
+      background: linear-gradient(90deg, vars.$spec-txt 0%, rgba(79, 87, 184, 1) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      opacity: 0.25;
+    }
   }
 }
 
-@media screen and (max-width: 109.688rem) {
+@media screen and (max-width: 111.563rem) {
   .Process {
     &_content {
-      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: start;
       gap: 6.25rem;
     }
 
     &_block {
-      width: 100%;
       margin: 0;
 
       &-image {
@@ -55,6 +65,7 @@
       }
 
       &-content {
+        max-width: max-content;
         width: 100%;
       }
 
@@ -67,6 +78,18 @@
     &_card {
       max-width: 40.625rem;
       min-height: 12.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 93.688rem) {
+  .Process {
+    &_content {
+      gap: 7.5rem;
+    }
+
+    &_block {
+      margin: 0;
     }
   }
 }

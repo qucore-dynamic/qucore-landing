@@ -21,11 +21,15 @@ const Process = () => {
             delay={0.1}
             x={0}
             y={50}
-            className='Process_block flex justify-start items-center relative'
+            className='Process_block z-3 flex justify-start items-center relative'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
-              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center'>
-                <h3 className='Process_card-header font-prosto text-[clamp(1rem,6vw,1.75rem)]'>
+              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center relative z-2'>
+                <h3 className='Process_card-num absolute top-0 left-5.75 font-coda text-[clamp(3rem,4.5vw,7.5rem)] -z-1 blur-[0.075rem] select-none'>
+                  01
+                </h3>
+
+                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,6vw,1.75rem)]'>
                   Shipment Arrives
                 </h3>
 
@@ -34,7 +38,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(1rem,4vw,1.375rem)]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
                 Trigger event that starts the entire process. It can come from user input, API, or
                 external system
               </p>
@@ -63,11 +67,15 @@ const Process = () => {
             delay={0.2}
             x={0}
             y={50}
-            className='Process_block flex justify-start items-center relative ml-109 -mt-40'
+            className='Process_block z-2 flex justify-start items-center relative ml-109 -mt-40'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
-              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center'>
-                <h3 className='Process_card-header font-prosto text-[clamp(1rem,5.5vw,1.75rem)]'>
+              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center relative z-2'>
+                <h3 className='Process_card-num absolute top-0 left-5.75 font-coda text-[clamp(3rem,4.5vw,7.5rem)] -z-1 blur-[0.075rem] select-none'>
+                  02
+                </h3>
+
+                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
                   Economy Module
                 </h3>
 
@@ -76,7 +84,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(1rem,4vw,1.375rem)]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
                 Updates financial state of the system based on the event data (e.g. revenue, costs,
                 balances)
               </p>
@@ -105,11 +113,15 @@ const Process = () => {
             delay={0.3}
             x={0}
             y={50}
-            className='Process_block flex justify-start items-center relative ml-218 -mt-40'
+            className='Process_block Process_block-3 flex justify-start items-center relative ml-218 -mt-40'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
-              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center'>
-                <h3 className='Process_card-header font-prosto text-[clamp(1rem,5.5vw,1.75rem)]'>
+              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center relative z-2'>
+                <h3 className='Process_card-num absolute top-0 left-5.75 font-coda text-[clamp(3rem,4.5vw,7.5rem)] -z-1 blur-[0.075rem] select-none'>
+                  03
+                </h3>
+
+                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
                   Task System
                 </h3>
 
@@ -118,7 +130,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(1rem,4vw,1.375rem)]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
                 Automatically generates actionable tasks for responsible users or roles
               </p>
             </div>
@@ -146,11 +158,15 @@ const Process = () => {
             delay={0.4}
             x={0}
             y={50}
-            className='Process_block flex justify-start items-center relative ml-327 -mt-35.75'
+            className='Process_block Process_block-4 flex justify-start items-center relative ml-330 -mt-35.75'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
-              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center'>
-                <h3 className='Process_card-header font-prosto text-[clamp(1rem,5.5vw,1.75rem)]'>
+              <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center relative z-2'>
+                <h3 className='Process_card-num absolute top-0 left-5.75 font-coda text-[clamp(3rem,4.5vw,7.5rem)] -z-1 blur-[0.075rem] select-none'>
+                  04
+                </h3>
+
+                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
                   Inventory System
                 </h3>
 
@@ -159,7 +175,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(1rem,4vw,1.375rem)]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
                 Adjusts stock levels based on the received shipment data and updates system state
               </p>
             </div>
