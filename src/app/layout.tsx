@@ -2,9 +2,6 @@
 import './global.css'
 import './variables.scss'
 
-// Components
-import ScrollFix from '@components-shared/ScrollFix'
-
 // Font
 import { Prosto_One, Afacad, Coda } from 'next/font/google'
 
@@ -38,7 +35,6 @@ const RootLayout = async ({ children }: LayoutT) => {
       <body
         className={`${prosto.className} ${afacad.className} ${coda.className} ${prosto.variable} ${afacad.variable} ${coda.variable} bg-(--bg) text-(--txt) flex flex-col items-center text-center mx-[3.3%]`}
       >
-        <ScrollFix />
         <main className='w-full flex flex-col justify-center'>{children}</main>
       </body>
     </html>
