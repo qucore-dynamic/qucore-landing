@@ -24,7 +24,6 @@
     @media (hover: hover) {
       &:hover {
         translate: 0 -15px;
-        border-bottom: none;
         box-shadow: 0 0 15px 2px vars.$border;
 
         &::after {
@@ -35,7 +34,6 @@
 
     &:active {
       translate: 0 -15px;
-      border-bottom: none;
       box-shadow: 0 0 15px 2px vars.$border;
 
       &::after {
