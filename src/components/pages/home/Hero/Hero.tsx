@@ -15,8 +15,8 @@ const Hero = () => {
   }
 
   return (
-    <section className='h-screen min-h-min flex flex-col justify-center items-center relative mb-25'>
-      <Cloud fileName='hero.svg' className='Hero_cloud top-[7.5vh] right-0' />
+    <section className='h-screen min-h-screen flex flex-col justify-center items-center relative mb-25'>
+      <Cloud fileName='hero.svg' className='top-[7.5vh] right-0' />
 
       <div className='flex flex-col justify-center items-center relative'>
         <FadeUpMotion delay={0} x={75} y={0}>
@@ -38,7 +38,7 @@ const Hero = () => {
         <div className='Hero_btns flex justify-center gap-17.5 gap-y-7.5 mt-17.5 text-[clamp(1rem,2vw,1.125rem)]'>
           <FadeUpMotion delay={0.4} x={-50} y={0}>
             <button
-              className='Hero_btn Explore_btn min-w-37.5 h-10 font-coda pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
+              className='Hero_btn Explore_btn min-w-37.5 h-10 font-coda pt-0.5 px-3.75 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('about-section')}
             >
               Explore
@@ -47,7 +47,7 @@ const Hero = () => {
 
           <FadeUpMotion delay={0.4} x={50} y={0}>
             <button
-              className='Hero_btn Contact-us_btn min-w-37.5 h-10 font-coda pt-0.5 rounded-[20px] cursor-pointer tracking-wider'
+              className='Hero_btn Contact-us_btn min-w-37.5 h-10 font-coda pt-0.5 px-3.75 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('contacts-section')}
             >
               Contact us
