@@ -15,7 +15,7 @@ const Process = () => {
         <SectionHeader>How it works</SectionHeader>
       </FadeUpMotion>
 
-      <div className='Process_wrapper flex justify-center items-center'>
+      <div className='flex justify-center items-center'>
         <div className='Process_content w-full flex flex-col justify-center items-start text-center relative mt-25'>
           <FadeUpMotion
             delay={0.1}
@@ -29,11 +29,9 @@ const Process = () => {
                   01
                 </h3>
 
-                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,6vw,1.75rem)]'>
-                  Shipment Arrives
-                </h3>
+                <h3 className='font-prosto text-[clamp(1.25rem,6vw,1.75rem)]'>Shipment Arrives</h3>
 
-                <h4 className='Process_card-text mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
+                <h4 className='mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
                   (Warehouse A)
                 </h4>
               </div>
@@ -48,15 +46,15 @@ const Process = () => {
               <img
                 src='images/arrow.svg'
                 alt='Arrow image'
-                className='Process_block-arrow-line w-71 mb-17 relative pointer-events-none select-none'
+                className='w-71 mb-17 relative pointer-events-none select-none'
               />
 
-              <div className='Process_block-arrow absolute -top-6'>
-                <div className='Process_block-arrow-circle w-12.5 h-12.5 bg-(--bl) outline-[3px] border-(--o-txt) rounded-full flex justify-center items-center'>
+              <div className='absolute -top-6'>
+                <div className='w-12.5 h-12.5 bg-(--bl) outline-[3px] border-(--o-txt) rounded-full flex justify-center items-center'>
                   <img
                     src='images/icons/economy_module.svg'
                     alt='Economy module icon'
-                    className='Process_block-arrow-circle-icon w-6.25 pointer-events-none select-none'
+                    className='w-6.25 pointer-events-none select-none'
                   />
                 </div>
               </div>
@@ -75,11 +73,9 @@ const Process = () => {
                   02
                 </h3>
 
-                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
-                  Economy Module
-                </h3>
+                <h3 className='font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>Economy Module</h3>
 
-                <h4 className='Process_card-text mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
+                <h4 className='mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
                   +500 USD revenue recorded
                 </h4>
               </div>
@@ -94,15 +90,15 @@ const Process = () => {
               <img
                 src='images/arrow.svg'
                 alt='Arrow image'
-                className='Process_block-arrow-line w-71 mb-17 relative pointer-events-none select-none'
+                className='w-71 mb-17 relative pointer-events-none select-none'
               />
 
-              <div className='Process_block-arrow absolute -top-6'>
-                <div className='Process_block-arrow-circle w-12.5 h-12.5 bg-(--bl) outline-[3px] border-(--o-txt) rounded-full flex justify-center items-center'>
+              <div className='absolute -top-6'>
+                <div className='w-12.5 h-12.5 bg-(--bl) outline-[3px] border-(--o-txt) rounded-full flex justify-center items-center'>
                   <img
                     src='images/icons/task_system.svg'
                     alt='Task system icon'
-                    className='Process_block-arrow-circle-icon w-6.25 pointer-event-none select-none'
+                    className='w-6.25 pointer-event-none select-none'
                   />
                 </div>
               </div>
@@ -113,7 +109,7 @@ const Process = () => {
             delay={0.3}
             x={0}
             y={50}
-            className='Process_block Process_block-3 flex justify-start items-center relative ml-218 -mt-40'
+            className='Process_block flex justify-start items-center relative ml-218 -mt-40'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
               <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center relative z-2'>
@@ -121,11 +117,9 @@ const Process = () => {
                   03
                 </h3>
 
-                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
-                  Task System
-                </h3>
+                <h3 className='font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>Task System</h3>
 
-                <h4 className='Process_card-text mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
+                <h4 className='mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
                   Task created: “Unload cargo in Zone B”
                 </h4>
               </div>
@@ -139,15 +133,15 @@ const Process = () => {
               <img
                 src='images/arrow.svg'
                 alt='Arrow image'
-                className='Process_block-arrow-line w-71 mb-17 relative pointer-events-none select-none'
+                className='w-71 mb-17 relative pointer-events-none select-none'
               />
 
-              <div className='Process_block-arrow absolute -top-6'>
-                <div className='Process_block-arrow-circle w-12.5 h-12.5 bg-(--bl) outline-[3px] border-(--o-txt) rounded-full flex justify-center items-center'>
+              <div className='absolute -top-6'>
+                <div className='w-12.5 h-12.5 bg-(--bl) outline-[3px] border-(--o-txt) rounded-full flex justify-center items-center'>
                   <img
                     src='images/icons/inventory_system.svg'
                     alt='Invertory system icon'
-                    className='Process_block-arrow-circle-icon w-6.25 pointer-event-none select-none'
+                    className='w-6.25 pointer-event-none select-none'
                   />
                 </div>
               </div>
@@ -158,7 +152,7 @@ const Process = () => {
             delay={0.4}
             x={0}
             y={50}
-            className='Process_block Process_block-4 flex justify-start items-center relative ml-330 -mt-35.75'
+            className='Process_block flex justify-start items-center relative ml-330 -mt-35.75'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
               <div className='Process_card w-full max-w-87.5 min-h-48 p-8.75 bg-(--bl) border border-(--border) rounded-[20px] flex flex-col justify-center items-center relative z-2'>
@@ -166,11 +160,11 @@ const Process = () => {
                   04
                 </h3>
 
-                <h3 className='Process_card-header font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
+                <h3 className='font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
                   Inventory System
                 </h3>
 
-                <h4 className='Process_card-text mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
+                <h4 className='mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
                   +150 items added to stock
                 </h4>
               </div>
