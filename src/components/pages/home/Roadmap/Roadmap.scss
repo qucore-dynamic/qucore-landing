@@ -1,0 +1,112 @@
+@use '../../../../app/variables.scss' as vars;
+
+@media screen and (max-width: 95.938rem) {
+  .Roadmap {
+    &_content {
+      align-items: start;
+      gap: 9.375rem;
+      margin-top: 11.85rem;
+    }
+
+    &_card {
+      margin-top: 0;
+    }
+
+    &_image {
+      display: none;
+    }
+
+    &_image-smaller {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 76.875rem) {
+  .Roadmap {
+    &_content {
+      gap: 4.688rem;
+    }
+  }
+}
+
+@media screen and (max-width: 70.313rem) {
+  .Roadmap {
+    &_content {
+      flex-direction: column;
+      margin-top: 6.25rem;
+      gap: 6.25rem;
+    }
+
+    &_image-smaller {
+      display: none;
+
+      &-vertical {
+        display: flex;
+      }
+    }
+
+    &_card {
+      flex-direction: row;
+      margin-left: 21.85rem;
+      gap: 3.125rem;
+      width: max-content;
+
+      &-rev {
+        flex-direction: row-reverse;
+        margin-left: 0;
+      }
+
+      &-header {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  .Roadmap {
+    &_card {
+      margin-left: 15.6rem;
+
+      &-rev {
+        margin-left: 0;
+      }
+
+      &-text {
+        max-width: 12.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 38.125rem) {
+  .Roadmap {
+    &_content {
+      margin-top: 3.125rem;
+      gap: 4.688rem;
+			width: 100%;
+    }
+
+    &_image-smaller {
+      &-vertical {
+        display: none;
+      }
+    }
+
+    &_card {
+      flex-direction: column;
+      gap: 1.875rem;
+      margin-left: 0;
+      width: 100%;
+
+      &-rev {
+        flex-direction: column;
+      }
+
+      &-text {
+        max-width: 35rem;
+      }
+    }
+  }
+}
