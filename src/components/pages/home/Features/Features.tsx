@@ -19,7 +19,7 @@ const Features = () => {
         <FadeUpMotion
           delay={0.1}
           x={0}
-          y={50}
+          y={75}
           className='Features_card flex flex-col justify-center items-center w-full max-w-107.5 min-w-50 p-6.25 bg-(--bl) border border-(--border) rounded-[20px]'
         >
           <div>
@@ -40,7 +40,7 @@ const Features = () => {
         <FadeUpMotion
           delay={0.2}
           x={0}
-          y={50}
+          y={75}
           className='Features_card flex flex-col justify-center items-center w-full max-w-107.5 min-w-50 p-6.25 bg-(--bl) border border-(--border) rounded-[20px]'
         >
           <div>
@@ -61,7 +61,7 @@ const Features = () => {
         <FadeUpMotion
           delay={0.3}
           x={0}
-          y={50}
+          y={75}
           className='Features_card flex flex-col justify-center items-center w-full max-w-107.5 min-w-50 p-6.25 bg-(--bl) border border-(--border) rounded-[20px]'
         >
           <div>
@@ -82,7 +82,7 @@ const Features = () => {
         <FadeUpMotion
           delay={0.4}
           x={0}
-          y={50}
+          y={75}
           className='Features_card flex flex-col justify-center items-center w-full max-w-107.5 min-w-50 p-6.25 bg-(--bl) border border-(--border) rounded-[20px]'
         >
           <div>
@@ -103,7 +103,7 @@ const Features = () => {
         <FadeUpMotion
           delay={0.5}
           x={0}
-          y={50}
+          y={75}
           className='Features_card flex flex-col justify-center items-center w-full max-w-107.5 min-w-50 p-6.25 bg-(--bl) border border-(--border) rounded-[20px]'
         >
           <div>
@@ -124,7 +124,7 @@ const Features = () => {
         <FadeUpMotion
           delay={0.6}
           x={0}
-          y={50}
+          y={75}
           className='Features_card flex flex-col justify-center items-center w-full max-w-107.5 min-w-50 p-6.25 bg-(--bl) border border-(--border) rounded-[20px]'
         >
           <div>

@@ -20,7 +20,7 @@ const Process = () => {
           <FadeUpMotion
             delay={0.1}
             x={0}
-            y={50}
+            y={75}
             className='Process_block z-3 flex justify-start items-center relative'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
@@ -64,7 +64,7 @@ const Process = () => {
           <FadeUpMotion
             delay={0.2}
             x={0}
-            y={50}
+            y={75}
             className='Process_block z-2 flex justify-start items-center relative ml-109 -mt-40'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
@@ -108,7 +108,7 @@ const Process = () => {
           <FadeUpMotion
             delay={0.3}
             x={0}
-            y={50}
+            y={75}
             className='Process_block flex justify-start items-center relative ml-218 -mt-40'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
@@ -151,7 +151,7 @@ const Process = () => {
           <FadeUpMotion
             delay={0.4}
             x={0}
-            y={50}
+            y={75}
             className='Process_block flex justify-start items-center relative ml-330 -mt-35.75'
           >
             <div className='Process_block-content flex flex-col justify-center items-center'>
