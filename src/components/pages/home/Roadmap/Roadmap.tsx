@@ -50,7 +50,7 @@ const Roadmap = () => {
           <FadeUpMotion
             delay={0.2}
             x={0}
-            y={50}
+            y={75}
             className='Roadmap_card z-2 w-full flex flex-col justify-start items-center mt-103.5'
           >
             <div className='w-12.5 h-12.5 bg-(--bl) border-2 border-(--o-txt) rounded-full flex justify-center items-center'>
@@ -76,7 +76,7 @@ const Roadmap = () => {
           <FadeUpMotion
             delay={0.3}
             x={0}
-            y={50}
+            y={75}
             className='Roadmap_card Roadmap_card-rev z-2 w-full flex flex-col justify-start items-center mt-40.5'
           >
             <div className='w-12.5 h-12.5 bg-(--bl) border-2 border-(--o-txt) rounded-full flex justify-center items-center'>
@@ -102,7 +102,7 @@ const Roadmap = () => {
           <FadeUpMotion
             delay={0.4}
             x={0}
-            y={50}
+            y={75}
             className='Roadmap_card z-2 w-full flex flex-col justify-start items-center mt-53.5'
           >
             <div className='w-12.5 h-12.5 bg-(--bl) border-2 border-(--o-txt) rounded-full flex justify-center items-center'>

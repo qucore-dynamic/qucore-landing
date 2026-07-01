@@ -15,15 +15,25 @@ const Hero = () => {
   }
 
   return (
-    <section className='h-screen min-h-screen flex flex-col justify-center items-center relative mb-25'>
+    <section className='h-screen min-h-min py-5.5 flex flex-col justify-center items-center text-center relative mb-19.5'>
       <Cloud fileName='hero.svg' className='top-[7.5vh] right-0' />
 
       <div className='flex flex-col justify-center items-center relative'>
-        <FadeUpMotion delay={0} x={75} y={0}>
-          <h1 className='text-[clamp(2.5rem,10vw,6rem)] font-prosto'>QuCore Dynamic</h1>
+        <FadeUpMotion
+          delay={0}
+          x={0}
+          y={-50}
+          className='flex justify-center items-center text-center bg-(--bl) border border-(--border) rounded-[20px] px-5 pt-1 pb-0.5'
+        >
+          <div className='bg-[#cccc29] rounded-full w-2 h-2 mr-2 blur-[0.05vw]'></div>
+          <h4 className='text-[0.85rem]'>In development</h4>
         </FadeUpMotion>
 
-        <FadeUpMotion delay={0.1} x={-75} y={0}>
+        <FadeUpMotion delay={0.1} x={75} y={0}>
+          <h1 className='text-[clamp(2.5rem,10vw,6rem)] font-prosto mt-1.25'>QuCore Dynamic</h1>
+        </FadeUpMotion>
+
+        <FadeUpMotion delay={0.2} x={-75} y={0}>
           <h2 className='text-[clamp(1.5rem,5vw,3rem)] font-prosto -mt-1.25 mx-3.75'>
             Where ideas meet technology
           </h2>
@@ -36,7 +46,7 @@ const Hero = () => {
         </FadeUpMotion>
 
         <div className='Hero_btns flex justify-center gap-17.5 gap-y-7.5 mt-17.5 text-[clamp(1rem,2vw,1.125rem)]'>
-          <FadeUpMotion delay={0.4} x={-50} y={0}>
+          <FadeUpMotion delay={0.4} x={-75} y={0}>
             <button
               className='Hero_btn Explore_btn min-w-37.5 h-10 font-coda pt-0.5 px-3.75 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('about-section')}
@@ -45,7 +55,7 @@ const Hero = () => {
             </button>
           </FadeUpMotion>
 
-          <FadeUpMotion delay={0.4} x={50} y={0}>
+          <FadeUpMotion delay={0.4} x={75} y={0}>
             <button
               className='Hero_btn Contact-us_btn min-w-37.5 h-10 font-coda pt-0.5 px-3.75 rounded-[20px] cursor-pointer tracking-wider'
               onClick={() => handleScroll('contacts-section')}
