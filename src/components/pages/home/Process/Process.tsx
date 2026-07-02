@@ -36,7 +36,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(0.85rem,1vw,1.1rem)]'>
                 Trigger event that starts the entire process. It can come from user input, API, or
                 external system
               </p>
@@ -80,7 +80,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(0.85rem,1vw,1.1rem)]'>
                 Updates financial state of the system based on the event data (e.g. revenue, costs,
                 balances)
               </p>
@@ -124,7 +124,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(0.85rem,1vw,1.1rem)]'>
                 Automatically generates actionable tasks for responsible users or roles
               </p>
             </div>
@@ -169,7 +169,7 @@ const Process = () => {
                 </h4>
               </div>
 
-              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[1.1rem]'>
+              <p className='Process_block-text max-w-82 mt-3.75 font-prosto text-[clamp(0.85rem,1vw,1.1rem)]'>
                 Adjusts stock levels based on the received shipment data and updates system state
               </p>
             </div>

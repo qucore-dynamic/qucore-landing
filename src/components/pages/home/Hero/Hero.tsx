@@ -15,22 +15,19 @@ const Hero = () => {
   }
 
   return (
-    <section className='h-screen min-h-min py-5.5 flex flex-col justify-center items-center text-center relative mb-19.5'>
+    <section className='min-h-screen py-2.5 flex flex-col justify-center items-center text-center relative mb-19.5'>
       <Cloud fileName='hero.svg' className='top-[7.5vh] right-0' />
 
       <div className='flex flex-col justify-center items-center relative'>
-        <FadeUpMotion
-          delay={0}
-          x={0}
-          y={-50}
-          className='flex justify-center items-center text-center bg-(--bl) border border-(--border) rounded-[20px] px-5 pt-1 pb-0.5'
-        >
-          <div className='bg-[#cccc29] rounded-full w-2 h-2 mr-2 blur-[0.05vw]'></div>
-          <h4 className='text-[0.85rem]'>In development</h4>
+        <FadeUpMotion delay={0} x={0} y={-50} isFirstScreen={true}>
+          <div className='mb-2.5 flex justify-center items-center text-center bg-(--bl) border border-(--border) rounded-[20px] px-5 pt-1 pb-0.75'>
+            <div className='bg-[#cccc29] rounded-full w-1.75 h-1.75 mr-2 blur-[0.025vw]'></div>
+            <h4 className='text-[clamp(0.65rem,1vw,0.85rem)]'>In development</h4>
+          </div>
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.1} x={75} y={0}>
-          <h1 className='text-[clamp(2.5rem,10vw,6rem)] font-prosto mt-1.25'>QuCore Dynamic</h1>
+          <h1 className='text-[clamp(2.5rem,10vw,6rem)] font-prosto'>QuCore Dynamic</h1>
         </FadeUpMotion>
 
         <FadeUpMotion delay={0.2} x={-75} y={0}>
