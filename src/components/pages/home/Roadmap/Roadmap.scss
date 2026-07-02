@@ -1,15 +1,26 @@
 @use '../../../../app/variables.scss' as vars;
 
+.Roadmap {
+  &_image-smaller {
+    &-line {
+      background: linear-gradient(90deg, rgba(233, 234, 237, 1) 90%, rgba(23, 18, 25, 0) 100%);
+    }
+
+    &-vertical-line {
+      background: linear-gradient(180deg, rgba(233, 234, 237, 1) 90%, rgba(23, 18, 25, 0) 100%);
+    }
+  }
+}
+
 @media screen and (max-width: 95.938rem) {
   .Roadmap {
     &_content {
       align-items: start;
       gap: 9.375rem;
-      margin-top: 11.85rem;
     }
 
     &_card {
-      margin-top: 0;
+      top: -1.3rem;
     }
 
     &_image {
@@ -34,7 +45,6 @@
   .Roadmap {
     &_content {
       flex-direction: column;
-      margin-top: 6.25rem;
       gap: 6.25rem;
     }
 
@@ -83,9 +93,9 @@
 @media screen and (max-width: 38.125rem) {
   .Roadmap {
     &_content {
-      margin-top: 3.125rem;
+      margin-top: 4.688rem;
       gap: 4.688rem;
-			width: 100%;
+      width: 100%;
     }
 
     &_image-smaller {

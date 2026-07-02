@@ -53,19 +53,23 @@
     &_content {
       flex-direction: row;
       flex-wrap: wrap;
-      align-items: start;
+      align-items: stretch;
+      justify-content: center;
       gap: 6.25rem;
     }
 
     &_block {
+      flex: 1 1 37.5rem;
       margin: 0;
+      max-width: 37.5rem;
+      display: flex;
+      flex-direction: column;
 
       &-image {
         display: none;
       }
 
       &-content {
-        max-width: max-content;
         width: 100%;
       }
 
@@ -76,13 +80,14 @@
     }
 
     &_card {
-      max-width: 40.625rem;
+      width: 100%;
+      max-width: 100%;
       min-height: 12.5rem;
     }
   }
 }
 
-@media screen and (max-width: 93.688rem) {
+@media screen and (max-width: 88.25rem) {
   .Process {
     &_content {
       gap: 7.5rem;
