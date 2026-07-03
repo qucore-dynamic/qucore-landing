@@ -3,12 +3,12 @@ import './Roadmap.scss'
 
 // Components
 import Cloud from '@components-ui/Cloud/Cloud'
-import FadeUpMotion from '@components-shared/FadeUpMotion'
 import SectionHeader from '@components-ui/SectionHeader'
+import FadeUpMotion from '@components-shared/FadeUpMotion'
 
 const Roadmap = () => {
   return (
-    <section className='flex flex-col justify-center items-center relative mb-37.5'>
+    <section className='Roadmap flex flex-col justify-center items-center relative mb-62.5'>
       <Cloud fileName='roadmap.svg' className='right-0' />
 
       <FadeUpMotion delay={0} x={0} y={50}>

@@ -28,7 +28,7 @@ const Features = () => {
               alt='Event engine icon'
               className='max-h-12.5 w-auto pointer-events-none select-none'
             />
-            <h3 className='text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
+            <h3 className='text-start mt-6.25 font-prosto font-extrabold text-[clamp(1.25rem,2vw,1.75rem)]'>
               Event Engine
             </h3>
             <h4 className='text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
@@ -49,7 +49,7 @@ const Features = () => {
               alt='Automation icon'
               className='max-h-12.5 w-auto pointer-events-none select-none'
             />
-            <h3 className='text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
+            <h3 className='text-start mt-6.25 font-prosto font-extrabold text-[clamp(1.25rem,2vw,1.75rem)]'>
               Automation
             </h3>
             <h4 className='text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
@@ -70,7 +70,7 @@ const Features = () => {
               alt='Management icon'
               className='max-h-12.5 w-auto pointer-events-none select-none'
             />
-            <h3 className='text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
+            <h3 className='text-start mt-6.25 font-prosto font-extrabold text-[clamp(1.25rem,2vw,1.75rem)]'>
               Management
             </h3>
             <h4 className='text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
@@ -91,7 +91,7 @@ const Features = () => {
               alt='Economy icon'
               className='max-h-12.5 w-auto pointer-events-none select-none'
             />
-            <h3 className='text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
+            <h3 className='text-start mt-6.25 font-prosto font-extrabold text-[clamp(1.25rem,2vw,1.75rem)]'>
               Economy
             </h3>
             <h4 className='text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
@@ -112,7 +112,7 @@ const Features = () => {
               alt='Architecture icon'
               className='max-h-12.5 w-auto pointer-events-none select-none'
             />
-            <h3 className='text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
+            <h3 className='text-start mt-6.25 font-prosto font-extrabold text-[clamp(1.25rem,2vw,1.75rem)]'>
               Architecture
             </h3>
             <h4 className='text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>
@@ -133,7 +133,7 @@ const Features = () => {
               alt='Event Flow icon'
               className='max-h-12.5 w-auto pointer-events-none select-none'
             />
-            <h3 className='text-start mt-6.25 font-prosto text-[clamp(1.25rem,2vw,1.75rem)]'>
+            <h3 className='text-start mt-6.25 font-prosto font-extrabold text-[clamp(1.25rem,2vw,1.75rem)]'>
               Event Flow
             </h3>
             <h4 className='text-start font-afacad text-[clamp(1rem,1.5vw,1.25rem)]'>

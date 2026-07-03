@@ -1,6 +1,6 @@
 @use '../../../../app/variables.scss' as vars;
 
-.Features {
+.Contacts {
   &_card {
     position: relative;
     overflow: hidden;
@@ -30,6 +30,41 @@
           opacity: 1;
         }
       }
+    }
+
+    &:active {
+      translate: 0 -15px;
+      box-shadow: 0 0 15px 2px vars.$border;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 80.938rem) {
+  .Contacts {
+    &_content {
+      gap: 6.25rem;
+    }
+  }
+}
+
+@media screen and (max-width: 71.25rem) {
+  .Contacts {
+    &_content {
+      flex-direction: column;
+      margin-block: 6.25rem;
+    }
+
+    &_card {
+      a {
+        align-items: center;
+      }
+
+      align-items: center;
+      max-width: 31.25rem;
     }
   }
 }
