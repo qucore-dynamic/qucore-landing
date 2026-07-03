@@ -1,0 +1,70 @@
+@use '../../../../app/variables.scss' as vars;
+
+.Contacts {
+  &_card {
+    position: relative;
+    overflow: hidden;
+
+    transition:
+      translate 0.15s ease-in-out,
+      box-shadow 0.15s ease-in-out;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0.5rem;
+      background: linear-gradient(35deg, vars.$spec-txt 0%, rgba(79, 87, 184, 1) 100%);
+      opacity: 0;
+      transition: opacity 0.15s ease-in-out;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        translate: 0 -15px;
+        box-shadow: 0 0 15px 2px vars.$border;
+
+        &::after {
+          opacity: 1;
+        }
+      }
+    }
+
+    &:active {
+      translate: 0 -15px;
+      box-shadow: 0 0 15px 2px vars.$border;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 80.938rem) {
+  .Contacts {
+    &_content {
+      gap: 6.25rem;
+    }
+  }
+}
+
+@media screen and (max-width: 71.25rem) {
+  .Contacts {
+    &_content {
+      flex-direction: column;
+      margin-block: 6.25rem;
+    }
+
+    &_card {
+      a {
+        align-items: center;
+      }
+
+      align-items: center;
+      max-width: 31.25rem;
+    }
+  }
+}

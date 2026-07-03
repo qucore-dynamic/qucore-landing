@@ -4,7 +4,7 @@ import About from '@components-pages/home/About/About'
 import Features from '@components-pages/home/Features/Features'
 import Process from '@components-pages/home/Process/Process'
 import Roadmap from '@components-pages/home/Roadmap/Roadmap'
-import Contacts from '@components-pages/home/Contacts'
+import Contacts from '@components-pages/home/Contacts/Contacts'
 
 const Home = () => {
   return (
