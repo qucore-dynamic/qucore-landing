@@ -3,8 +3,8 @@ import './Process.scss'
 
 // Components
 import Cloud from '@components-ui/Cloud/Cloud'
-import FadeUpMotion from '@components-shared/FadeUpMotion'
 import SectionHeader from '@components-ui/SectionHeader'
+import FadeUpMotion from '@components-shared/FadeUpMotion'
 
 const Process = () => {
   return (
@@ -29,7 +29,9 @@ const Process = () => {
                   01
                 </h3>
 
-                <h3 className='font-prosto text-[clamp(1.25rem,6vw,1.75rem)]'>Shipment Arrives</h3>
+                <h3 className='font-prosto font-extrabold text-[clamp(1.25rem,5.5vw,1.75rem)]'>
+                  Shipment Arrives
+                </h3>
 
                 <h4 className='mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
                   (Warehouse A)
@@ -73,7 +75,9 @@ const Process = () => {
                   02
                 </h3>
 
-                <h3 className='font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>Economy Module</h3>
+                <h3 className='font-prosto font-extrabold text-[clamp(1.25rem,5.5vw,1.75rem)]'>
+                  Economy Module
+                </h3>
 
                 <h4 className='mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
                   +500 USD revenue recorded
@@ -117,7 +121,9 @@ const Process = () => {
                   03
                 </h3>
 
-                <h3 className='font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>Task System</h3>
+                <h3 className='font-prosto font-extrabold text-[clamp(1.25rem,5.5vw,1.75rem)]'>
+                  Task System
+                </h3>
 
                 <h4 className='mt-1.25 font-afacad text-[clamp(1rem,5.5vw,1.375rem)]'>
                   Task created: “Unload cargo in Zone B”
@@ -160,7 +166,7 @@ const Process = () => {
                   04
                 </h3>
 
-                <h3 className='font-prosto text-[clamp(1.25rem,5.5vw,1.75rem)]'>
+                <h3 className='font-prosto font-extrabold text-[clamp(1.25rem,5.5vw,1.75rem)]'>
                   Inventory System
                 </h3>
 

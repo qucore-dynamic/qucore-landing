@@ -29,14 +29,6 @@
       }
     }
 
-    &:active {
-      box-shadow: 0 0 15px 2px vars.$border;
-
-      &::after {
-        opacity: 1;
-      }
-    }
-
     &-num {
       background: linear-gradient(90deg, vars.$spec-txt 0%, rgba(79, 87, 184, 1) 100%);
       -webkit-background-clip: text;

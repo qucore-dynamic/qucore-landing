@@ -31,14 +31,5 @@
         }
       }
     }
-
-    &:active {
-      translate: 0 -15px;
-      box-shadow: 0 0 15px 2px vars.$border;
-
-      &::after {
-        opacity: 1;
-      }
-    }
   }
 }

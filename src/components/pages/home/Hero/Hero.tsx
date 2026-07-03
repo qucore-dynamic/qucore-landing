@@ -19,7 +19,7 @@ const Hero = () => {
       <Cloud fileName='hero.svg' className='top-[7.5vh] right-0' />
 
       <div className='flex flex-col justify-center items-center relative'>
-        <FadeUpMotion delay={0} x={0} y={-50} isFirstScreen={true}>
+        <FadeUpMotion delay={0} x={-75} y={0}>
           <div className='mb-2.5 flex justify-center items-center text-center bg-(--bl) border border-(--border) rounded-[20px] px-5 pt-1 pb-0.75'>
             <div className='bg-[#cccc29] rounded-full w-1.75 h-1.75 mr-2 blur-[0.025vw]'></div>
             <h4 className='text-[clamp(0.65rem,1vw,0.85rem)]'>In development</h4>

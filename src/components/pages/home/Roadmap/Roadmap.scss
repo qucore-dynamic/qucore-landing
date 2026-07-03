@@ -14,6 +14,8 @@
 
 @media screen and (max-width: 95.938rem) {
   .Roadmap {
+    margin-bottom: 10.938rem;
+
     &_content {
       align-items: start;
       gap: 9.375rem;
@@ -43,6 +45,8 @@
 
 @media screen and (max-width: 70.313rem) {
   .Roadmap {
+    margin-bottom: 7.813rem;
+
     &_content {
       flex-direction: column;
       gap: 6.25rem;
