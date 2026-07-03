@@ -27,11 +27,12 @@ jobs:
       - name: Lint check
         run: npm run lint
 
-      # - name: Build project
-      #   run: npm run build
-      #   env:
-      #       MODE: 'prod'
-      #       NEXT_PUBLIC_SITE: 'qucore.vercel.app'
+      - name: Build project
+        run: npm run build
+        env:
+          MODE: 'prod'
+          NEXT_PUBLIC_SITE: 'qucore.vercel.app'
+          NEXT_PUBLIC_GOOGLE_CONSOLE_CODE: '1234567890'
 
       - name: Run tests
         run: npm test -- --passWithNoTests

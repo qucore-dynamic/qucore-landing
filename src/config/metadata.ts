@@ -24,6 +24,9 @@ export const siteConfig = {
   },
   description: description,
   metadataBase: new URL(baseUrl),
+  verification: {
+    google: `${process.env.NEXT_PUBLIC_GOOGLE_CONSOLE_CODE}`,
+  },
   openGraph: {
     title: title,
     description: description,

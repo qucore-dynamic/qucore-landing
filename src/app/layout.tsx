@@ -6,7 +6,13 @@ import './variables.scss'
 import { Prosto_One, Afacad, Coda } from 'next/font/google'
 
 // Types
+import type { Metadata } from 'next'
 import { LayoutT } from '@shared-types/layouts'
+
+// Metadata
+import { siteConfig } from '@config/metadata'
+
+export const metadata: Metadata = siteConfig
 
 const prosto = Prosto_One({
   subsets: ['latin', 'cyrillic', 'latin-ext'],
