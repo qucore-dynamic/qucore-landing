@@ -22,7 +22,7 @@ const Contacts = () => {
           y={50}
           className='Contacts_card flex flex-col justify-center items-start bg-(--bl) border border-(--border) rounded-[20px] w-full max-w-71.25 p-6.25'
         >
-          <a href='mailto:artemzhr11@gmail.com' target='_blank' className='w-full flex flex-col'>
+          <a href='mailto:qucoredynamic@gmail.com' target='_blank' className='w-full flex flex-col'>
             <img
               src='images/icons/email.svg'
               alt='Email icon'
