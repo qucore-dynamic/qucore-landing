@@ -1,6 +1,6 @@
 'use client'
 
-//@ Modules
+// Modules
 import { motion } from 'framer-motion'
 
 type Props = {
